@@ -43,7 +43,7 @@ Model behavior is a general concept, that explains certain characteristics of th
 
 ### New Categorization
 
-~~We divide the works that set up to understand model behavior as following:
+~~We divide the works that set up to understand model behavior as following:~~
 - Direct analysis        : directly analyses the characteristics of the model predictions
 - Counterfactual analysis: try to understand the behavior change of the model predictions with intervention of the input
 - Controllable analysis  : try to repurpose the model prediction towards certain expected ones
