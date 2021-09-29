@@ -16,6 +16,7 @@ Model behavior is a general concept, that explains certain characteristics of th
 - [When a Good Translation is Wrong in Context: Context-Aware Machine Translation Improves on Deixis, Ellipsis, and Lexical Cohesion](https://aclanthology.org/P19-1116/), EMNLP 2019.
 - [The Unreasonable Volatility of Neural Machine Translation Models](https://aclanthology.org/2020.ngt-1.10/), Workshop on Neural Generation and Translation 2020.
 
+
 #### Controllable And Expected Behavior
 
 - [Evaluating Grammaticality in Seq2seq Models with a Broad Coverage HPSG Grammar: A Case Study on Machine Translation](https://aclanthology.org/W18-5432/), 2018.
@@ -42,7 +43,7 @@ Model behavior is a general concept, that explains certain characteristics of th
 
 ### New Categorization
 
-We divide the works that set up to understand model behavior as following:
+~~We divide the works that set up to understand model behavior as following:
 - Direct analysis        : directly analyses the characteristics of the model predictions
 - Counterfactual analysis: try to understand the behavior change of the model predictions with intervention of the input
 - Controllable analysis  : try to repurpose the model prediction towards certain expected ones
