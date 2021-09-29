@@ -32,10 +32,13 @@ Model behavior is a general concept, that explains certain characteristics of th
 
 #### Hallucination Issue
 
+- [Hallucinations in Neural Machine Translation](https://openreview.net/pdf?id=SkxJ-309FQ), 2019.
+  - Define a phenomenon called `hallucination`, when NMT model predicts highly pathological translations that are completely untethered from the source material.
+  - Describe a method to generate hallucinations and show that common architectures are suscepticible to them.
+  - They show data augmentation significantly reduces hallucination frequency.
 - [Detecting Hallucinated Content in Conditional Neural Sequence Generation](https://arxiv.org/abs/2011.02593), ICLR 2020.
 - [On Exposure Bias, Hallucination and Domain Shift in Neural Machine Translation](https://aclanthology.org/2020.acl-main.326/), ACL 2020.
-- [Hallucinations in Neural Machine Translation](https://openreview.net/pdf?id=SkxJ-309FQ), 2019.
-- [The Curious Case of Hallucinations in Neural Machine Translation](https://arxiv.org/pdf/2104.06683.pdf), 2021.
+- [The Curious Case of Hallucinations in Neural Machine Translation](https://arxiv.org/pdf/2104.06683.pdf), NAACL 2021.
 
 ### New Categorization
 
