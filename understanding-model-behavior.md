@@ -48,21 +48,26 @@ Model behavior is a general concept, that explains certain characteristics of th
 ~~- Counterfactual analysis: try to understand the behavior change of the model predictions with intervention of the input~~
 ~~- Controllable analysis  : try to repurpose the model prediction towards certain expected ones~~
 
-- **Static Analysis**: 
-- **Dynamic Analysis**
+- **Static Analysis**: directly analyze the properties of the model's predictions
+- **Controlled Analysis**: charaterize the model's reaction to inputs constructed with certain property in concern
+- **Dynamic Analysis**: do intervention or manipulation to the inputs or the model so as to reveal the weakness of the model
 
 #### Static Analysis
 
-- **Linguistic Property**
+- Linguistic property: fluency, coverage, word choice
   - [A Multifaceted Evaluation of Neural versus Phrase-Based Machine Translation for 9 Language Directions](https://aclanthology.org/E17-1100.pdf), EACL 2017.
   - [Evaluating Grammaticality in Seq2seq Models with a Broad Coverage HPSG Grammar: A Case Study on Machine Translation](https://aclanthology.org/W18-5432/), 2018.
   - [On Long-Tailed Phenomena in Neural Machine Translation](https://www.overleaf.com/project/6132bd0513f6ce27b87dac61), EMNLP 2020.
   - [Detecting Non-literal Translations by Fine-tuning Cross-lingual Pre-trained Language Models](https://aclanthology.org/2020.coling-main.522/), COLING 2020.
+  - [Identifying Fluently Inadequate Output in Neural and Statistical Machine Translation](https://aclanthology.org/W19-6623.pdf), WMT 2019.
+
+#### Controlled Analysis
+
+- Specified Inputs
   - [A Linguistic Evaluation of Rule-Based, Phrase-Based, and Neural MT Engines](https://ufal.mff.cuni.cz/pbml/108/art-burchardt-macketanz-dehdari-heigold-peter-williams.pdf), The Prague Bulletin of Mathematical Linguistics, 2017.
   - [A Challenge Set Approach to Evaluating Machine Translation](https://aclanthology.org/D17-1263.pdf), EMNLP 2017.
+  - 
 
-- **Fluency and Coverage**
-  - [Identifying Fluently Inadequate Output in Neural and Statistical Machine Translation](https://aclanthology.org/W19-6623.pdf), WMT 2019.
 
 
 #### Dynamic Analysis
