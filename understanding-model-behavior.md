@@ -47,3 +47,29 @@ Model behavior is a general concept, that explains certain characteristics of th
 ~~- Direct analysis        : directly analyses the characteristics of the model predictions~~
 ~~- Counterfactual analysis: try to understand the behavior change of the model predictions with intervention of the input~~
 ~~- Controllable analysis  : try to repurpose the model prediction towards certain expected ones~~
+
+- **Static Analysis**: 
+- **Dynamic Analysis**
+
+#### Static Analysis
+
+- **Linguistic Property**
+  - [Evaluating Grammaticality in Seq2seq Models with a Broad Coverage HPSG Grammar: A Case Study on Machine Translation](https://aclanthology.org/W18-5432/), 2018.
+  - [On Long-Tailed Phenomena in Neural Machine Translation](https://www.overleaf.com/project/6132bd0513f6ce27b87dac61), EMNLP 2020.
+  - [Detecting Non-literal Translations by Fine-tuning Cross-lingual Pre-trained Language Models](https://aclanthology.org/2020.coling-main.522/), COLING 2020.
+  - [A Linguistic Evaluation of Rule-Based, Phrase-Based, and Neural MT Engines](https://ufal.mff.cuni.cz/pbml/108/art-burchardt-macketanz-dehdari-heigold-peter-williams.pdf), The Prague Bulletin of Mathematical Linguistics, 2017.
+  - [A Challenge Set Approach to Evaluating Machine Translation](https://aclanthology.org/D17-1263.pdf), EMNLP 2017.
+
+- **Fluency and Coverage**
+  - [Identifying Fluently Inadequate Output in Neural and Statistical Machine Translation](https://aclanthology.org/W19-6623.pdf), WMT 2019.
+
+
+#### Dynamic Analysis
+
+- **Compositionality**
+  - [On Compositionality in Neural Machine Translation](https://arxiv.org/pdf/1911.01497.pdf).
+  - [On Compositional Generalization of Neural Machine Translation](https://aclanthology.org/2021.acl-long.368.pdf), `acl2021`
+  - [The paradox of the compositionality of natural language: a neural machine translation case study](https://arxiv.org/pdf/2108.05885.pdf).
+
+
+
