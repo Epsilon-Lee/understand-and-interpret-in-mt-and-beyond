@@ -1,8 +1,7 @@
 
 ### Old paper lists
 
-- [Beyond Error Propagation in Neural Machine Translation: Characteristics of Language Also Matter](https://aclanthology.org/D18-1396/), `decoding direction modeling` `emnlp2018`
-  - xxx
+~~- [Beyond Error Propagation in Neural Machine Translation: Characteristics of Language Also Matter](https://aclanthology.org/D18-1396/), `decoding direction modeling` `emnlp2018`~~
 - [Six Challenges for Neural Machine Translation](https://aclanthology.org/W17-3204.pdf), `large beam size issue`
 - [Correcting Length Bias in Neural Machine Translation](https://aclanthology.org/W18-6322.pdf), `length bias`
 - [Empirical Analysis of Beam Search Performance Degradation in Neural Sequence Models](http://proceedings.mlr.press/v97/cohen19a.html), `search discrepancies`
@@ -15,8 +14,7 @@
 
 ### What are those essential questions in or beyond NMT decoding?
 
-- What are the impacts of error propagation during decoding?
-  - [Beyond Error Propagation in Neural Machine Translation: Characteristics of Language Also Matter](https://aclanthology.org/D18-1396/), `decoding direction modeling` `emnlp2018`.
+~~- What are the impacts of error propagation during decoding?~~
 - What is the relationship between length bias and large-beam search?
   - [Six Challenges for Neural Machine Translation](https://aclanthology.org/W17-3204.pdf), `large beam size issue`
   - [Correcting Length Bias in Neural Machine Translation](https://aclanthology.org/W18-6322.pdf), `length bias`
