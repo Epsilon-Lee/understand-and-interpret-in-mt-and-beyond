@@ -20,6 +20,10 @@
   - [Correcting Length Bias in Neural Machine Translation](https://aclanthology.org/W18-6322.pdf), `length bias`
   - [On NMT Search Errors and Model Errors: Cat Got Your Tongue?](https://aclanthology.org/D19-1331/), `search error vs model error`
   - [Empirical Analysis of Beam Search Performance Degradation in Neural Sequence Models](http://proceedings.mlr.press/v97/cohen19a.html), `search discrepancies`
+  - [Why Neural Machine Translation Prefers Empty Outputs](https://arxiv.org/pdf/2012.13454.pdf), 2021.
+    - "investigate why NMT systems assign high probability to empty translatations"
+      - label smoothing makes correct translation less confident
+      - same, high-frequency EoS word type to end all target sentence create an implicit smoothing that upscore zero-length translations  
 - What are the characteristics of the model distribution during decoding?
   - [Is MAP Decoding All You Need? The Inadequacy of the Mode in Neural Machine Translation](https://aclanthology.org/2020.coling-main.398/), `mode analysis`
   - [If beam search is the answer, what was the question?](https://aclanthology.org/2020.emnlp-main.170/), `beyond beam search`
