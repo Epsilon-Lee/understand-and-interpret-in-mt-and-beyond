@@ -17,7 +17,9 @@
 
 ~~- What are the impacts of error propagation during decoding?~~
 - When to stop decoding?
-  - [When to Finish? Optimal Beam Search for Neural Text Generation (modulo beam size)](http://web.engr.oregonstate.edu/~huanlian/papers/optimal_beam_search.pdf), 
+  - [When to Finish? Optimal Beam Search for Neural Text Generation (modulo beam size)](http://web.engr.oregonstate.edu/~huanlian/papers/optimal_beam_search.pdf), 2017.
+    - hypothesis can finish in different steps, so when to end beam search to ensure optimality
+    - bounded length reward formulation of the naive optimal beam search which can preserve the optimal condition while prevent generating short hypothesis
   - [Breaking the Beam Search Curse: A Study of (Re-)Scoring Methods and Stopping Criteria for Neural Machine Translation](https://arxiv.org/pdf/1808.09582.pdf?source=post_page---------------------------), `beam search curse`.
   - [The EOS Decision and Length Extrapolation](https://arxiv.org/pdf/2010.07174.pdf).
     - extrapolation to unseen length problem
