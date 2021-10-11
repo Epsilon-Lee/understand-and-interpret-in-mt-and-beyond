@@ -20,6 +20,9 @@
   - [When to Finish? Optimal Beam Search for Neural Text Generation (modulo beam size)](http://web.engr.oregonstate.edu/~huanlian/papers/optimal_beam_search.pdf), 
   - [Breaking the Beam Search Curse: A Study of (Re-)Scoring Methods and Stopping Criteria for Neural Machine Translation](https://arxiv.org/pdf/1808.09582.pdf?source=post_page---------------------------), `beam search curse`.
   - [The EOS Decision and Length Extrapolation](https://arxiv.org/pdf/2010.07174.pdf).
+    - extrapolation to unseen length problem
+    - how EOS prediction affects length extrapolation
+    - for NMT no take-away could be drawn from the experiments
   - [Consistency of a Recurrent Language Model With Respect to Incomplete Decoding](https://arxiv.org/pdf/2002.02492.pdf).
     - "receiving infinite-length sequences from a recurrent languange model when using common decoding algorithms"
     - define the inconsistency of a decoding algorithm, meaning that the algo can yeild an infinite-length sequence that has zero probability under the model
