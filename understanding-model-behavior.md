@@ -69,19 +69,18 @@ Model behavior is a general concept, that explains certain characteristics of th
 
 #### Controlled Analysis
 
-- Specified Inputs
+- Input with different linguistic phenomenon
   - [A Linguistic Evaluation of Rule-Based, Phrase-Based, and Neural MT Engines](https://ufal.mff.cuni.cz/pbml/108/art-burchardt-macketanz-dehdari-heigold-peter-williams.pdf), The Prague Bulletin of Mathematical Linguistics, 2017.
   - [A Challenge Set Approach to Evaluating Machine Translation](https://aclanthology.org/D17-1263.pdf), EMNLP 2017.
-  - 
 
-
+- Input with compositional structure
+  - [On compositionality in neural machine translation](https://arxiv.org/abs/1911.01497), 2019.
+  - [On Compositional Generalization of Neural Machine Translation](https://aclanthology.org/2021.acl-long.368/), ACL 2021.
+  - [The paradox of the compositionality of natural language: a neural machine translation case study](https://arxiv.org/abs/2108.05885), 2021.
 
 #### Dynamic Analysis
 
-- **Compositionality**
-  - [On Compositionality in Neural Machine Translation](https://arxiv.org/pdf/1911.01497.pdf).
-  - [On Compositional Generalization of Neural Machine Translation](https://aclanthology.org/2021.acl-long.368.pdf), `acl2021`
-  - [The paradox of the compositionality of natural language: a neural machine translation case study](https://arxiv.org/pdf/2108.05885.pdf).
+
 
 
 
