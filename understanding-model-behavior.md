@@ -61,6 +61,12 @@ Model behavior is a general concept, that explains certain characteristics of th
   - [Detecting Non-literal Translations by Fine-tuning Cross-lingual Pre-trained Language Models](https://aclanthology.org/2020.coling-main.522/), COLING 2020.
   - [Identifying Fluently Inadequate Output in Neural and Statistical Machine Translation](https://aclanthology.org/W19-6623.pdf), WMT 2019.
 
+- Beyond linguistic property
+
+- Calibration
+  - [Calibration of Encoder Decoder Models for Neural Machine Translation](https://arxiv.org/abs/1903.00802), 2019.
+  - [On the Inference Calibration of Neural Machine Translation](https://arxiv.org/pdf/2005.00963.pdf), EMNLP 2020.
+
 #### Controlled Analysis
 
 - Specified Inputs
